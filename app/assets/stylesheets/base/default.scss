@@ -1,0 +1,17 @@
+  body {
+    background: $backgroundColor;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  a:hover, a:active, a:link, a:visited {
+    text-decoration: none;   
+  }  
+  .control-label {
+    display: none;
+  }
+

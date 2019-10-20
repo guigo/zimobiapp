@@ -6,5 +6,9 @@
  @import "base/variables";
 
  
+// Default styles
+@import "base/default";
+@import "base/buttons.scss";
+
  // Patial - main css files
  @import "partials/layout/*";
