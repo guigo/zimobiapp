@@ -37,7 +37,7 @@ gem "jbuilder", "~> 2.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 gem "bootstrap", "~> 4.3", ">= 4.3.1"
-gem 'bootstrap_form'
+gem "bootstrap_form"
 gem "sass-rails", "~> 5.0"
 gem "jquery-rails"
 
@@ -48,6 +48,13 @@ gem "paperclip", "~> 6.0.0"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "rspec-rails", "~> 3.6"
+  gem "factory_bot_rails"
+  gem "rails-controller-testing"
+  gem "headless"
+  gem "capybara", ">=2.15"
+  gem "poltergeist"
+  gem "database_cleaner"
 end
 
 group :development do
