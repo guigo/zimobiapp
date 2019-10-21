@@ -70,6 +70,6 @@ class ImmobilesController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def immobile_params
-    params.require(:immobile).permit(:title, :description, :value, :history, :user_id)
+    params.require(:immobile).permit(:title, :description, :value, :history, :user_id, :image)
   end
 end

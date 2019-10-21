@@ -1,24 +1,23 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @immobile.title %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @immobile.description %>
-</p>
-
-<p>
-  <strong>Value:</strong>
-  <%= @immobile.value %>
-</p>
-
-<p>
-  <strong>History:</strong>
-  <%= @immobile.history %>
-</p>
-
-<%= link_to 'Edit', edit_immobile_path(@immobile) %> |
-<%= link_to 'Back', immobiles_path %>
+<hr />
+<div class="row">
+  <div class="col-md-6 mx-auto">
+    <div class="card">
+      <%= image_tag @immobile.image.url(:medium), class: 'card-img-top' %>
+      <div class="card-body">
+        <h4 class="card-title">
+          <%= @immobile.title %>
+        </h4>
+        <p class="card-text">
+          <%= @immobile.description %>
+          $<%= @immobile.value %>
+        </p>
+        <p class="card-text">
+          <%= @immobile.history %>
+        </p>
+        <%= link_to 'Edit', edit_immobile_path(@immobile), class: 'btn btn-primary' %>
+        <%= link_to 'Back', immobiles_path  %>
+      </div>
+    </div>
+  </div>
+</div>

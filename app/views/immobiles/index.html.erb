@@ -6,7 +6,6 @@
         <th>Title</th>
         <th>Description</th>
         <th>Value</th>
-        <th>History</th>
         <th colspan="3"></th>
       </tr>
     </thead>
@@ -17,7 +16,6 @@
         <td><%= immobile.title %></td>
         <td><%= immobile.description %></td>
         <td><%= immobile.value %></td>
-        <td><%= immobile.history %></td>
         <td><%= link_to 'Show', immobile %></td>
         <td><%= link_to 'Edit', edit_immobile_path(immobile) %></td>
         <td><%= link_to 'Destroy', immobile, method: :delete, data: { confirm: 'Are you sure?' } %></td>

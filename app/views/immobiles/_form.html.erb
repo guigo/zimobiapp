@@ -7,6 +7,7 @@
         <%= f.text_field :title %>
         <%= f.text_field :description %>
         <%= f.text_field :value%>
+        <%= f.file_field :image %>
         <%= f.text_area :history%>
         <%= f.submit "Save", class: 'btn btn-primary' %>
         <%= link_to 'Cancel', immobiles_path, class: 'btn bt-default' %>
