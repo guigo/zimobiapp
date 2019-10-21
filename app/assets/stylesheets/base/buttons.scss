@@ -12,3 +12,19 @@
     color:$buttonColorFirst;
     font-size: 18px;
 }
+
+.btn-second{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 20px auto 0;
+    background: #60c8d0;
+    border: solid 0;
+    border-radius: 3px;
+    text-align: center
+}
+
+.btn-second:hover, :focus{
+  color: #fff !important;
+  background:#559ba3 ;
+}
