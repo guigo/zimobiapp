@@ -1,0 +1,2 @@
+module ImmobileHelper
+end
