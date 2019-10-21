@@ -55,6 +55,7 @@ group :development, :test do
   gem "capybara", ">=2.15"
   gem "poltergeist"
   gem "database_cleaner"
+  gem "faker"
 end
 
 group :development do
