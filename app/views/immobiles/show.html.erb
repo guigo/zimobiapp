@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @immobile.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @immobile.description %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @immobile.value %>
+</p>
+
+<p>
+  <strong>History:</strong>
+  <%= @immobile.history %>
+</p>
+
+<%= link_to 'Edit', edit_immobile_path(@immobile) %> |
+<%= link_to 'Back', immobiles_path %>

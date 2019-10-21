@@ -3,15 +3,11 @@
 one:
   title: MyString
   description: MyString
-  image: MyString
   value: 9.99
   history: MyText
-  user: one
 
 two:
   title: MyString
   description: MyString
-  image: MyString
   value: 9.99
   history: MyText
-  user: two

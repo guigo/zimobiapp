@@ -1,0 +1,17 @@
+<hr />
+<div class="row">
+  <div class="col-md-6 mx-auto">
+    <div class="card">
+      <div class="card-body">
+        <%= bootstrap_form_for(@immobile) do |f| %>
+        <%= f.text_field :title %>
+        <%= f.text_field :description %>
+        <%= f.text_field :value%>
+        <%= f.text_area :history%>
+        <%= f.submit "Save", class: 'btn btn-primary' %>
+        <%= link_to 'Cancel', immobiles_path, class: 'btn bt-default' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
