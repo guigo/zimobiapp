@@ -16,3 +16,11 @@ The story to be worked out:
 As a property owner for sale on Zimouber sale, I want to be able to create, edit and view my ads.
 
 
+*Technologies used:
+
+ Test: faker, rspec, capybara, databaseclear
+ CSS: sas
+ Database: Sqlite
+
+ 
+
